@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Style the header */
+.container{
+    /* background-color: aqua; */
+    height: 500px;
+    width: 100%;
+   
+}
+.head{
+   display: flex;
+   /* background-color: bisque; */
+   height: 80px;
+   width: 100%;
+}
+.logo{
+    height: 50px;
+    width: 40pxpx;
+    margin: 10px 0 0 150px;
+}
+h2{
+    margin: 25px 0 0 10px;
+}
+.text{
+    margin-left: 250px;
+    
+}
+.main-text{
+    margin: 30px 0 0 25px;
+    font-size: 15px;
+}
+.button{
+    margin:20px 0 0 340px;
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FEA301;
+    color: white;
+}
+/*style the content bar*/
+.content{
+   height: 420px;
+   /* background-color: black; */
+   width: 80%;
+   margin-left: 150px;
+   display: flex;
+}
+.content-1{
+    height: 420px;
+    width: 860px;
+    /* background-color: yellow; */
+    padding: 60px 100px 0 0;
+}
+.content-2{
+    height: 420px;
+    width: 350px;
+    /* background-color: green; */
+}
+
+
+
+.enroll{
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.kid{
+    height: 420px;
+    width: 350px;
+}
+.empower{
+    color: #FEA301;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.towards{
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #01ACFD;
+}
+/* second section design start from here */
+.middle{
+    height: 750px;
+    width: 100%;
+    /* background-color: #FEA301; */
+    background-image: url(/B11-A2-Kids-School-main/assets/bg.png);
+}
+.standard{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.card{
+    height: 420px;
+    width: 1190px;
+    /* background-color: rgb(57, 147, 226); */
+    margin-left: 150px;
+    display: flex;
+    
+}
+.card1{
+    height: 420px;
+    width: 390px;
+    /* background-color: thistle; */
+    margin-right: 20px;
+   /* background-image: url(/B11-A2-Kids-School-main/assets/kinder.png); */
+   background-repeat: no-repeat;
+   background-image: linear-gradient(to bottom, #DEF5FF 0%,  #FFFFFF 40%);
+   border-radius: 10px;
+   border: 2px solid #DEF5FF;
+   box-shadow: 3px 2px 15px rgba(0, 0, 0, 0.3);
+}
+.card2{
+    height: 420px;
+    width: 390px;
+    /* background-color: thistle; */
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #FFF4DC 0%,  #FFFFFF 40%);
+    border-radius: 10px;
+    border: 2px solid #FFF4DC;
+    box-shadow: 3px 2px 15px rgba(0, 0, 0, 0.3);
+}
+.card3{
+    height: 420px;
+    width: 390px;
+    background-color: thistle;
+    
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #EEE1FF 0%,  #FFFFFF 40%);
+    border-radius: 10px;
+    border: 2px solid #EEE1FF;
+    box-shadow: 3px 2px 15px rgba(0, 0, 0, 0.3);
+}
+.icon{
+    height: 60px;
+    width: 140px;
+    /* margin: 20px 0 0 140px; */
+    /* background-color: red; */
+    display: flex;
+    margin: 65px 0 0 680px;
+}
+.icon-1{
+    height: 60px;
+    width: 60px;
+    background-color: #FEA301;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 12px;
+   border-radius: 35px;
+   margin-left: 5px;
+}
+.icon-2{
+    height: 60px;
+    width: 60px;
+    /* margin: 20px 0 0 140px; */
+    background-color: #FEA301;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 35px;
+}
+/* Third section design start from here */
+.story{
+    height: 850px;
+    width: 100%;
+    /* background-color: #8b8477; */
+    /* border: 2px solid black; */
+    background-image: url(/B11-A2-Kids-School-main/assets/bg.png);
+    background: linear-gradient(to top, #f9dfb1, white 100%);
+    /* z-index: 0; */
+   
+}
+.main-box{
+    height: 550px;
+    width: 1190px;
+    /* background-color: black; */
+    margin-left: 150px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.left-box{
+ height: 550px;
+ width: 450px;
+ background-color: white;
+ /* border: 1px solid black; */
+ border-radius: 10px;
+}
+.right-box{
+    height: 550px;
+    width: 735px;
+    /* background-color: blueviolet; */
+    /* border: 1px solid black; */
+}
+.upper-box{
+    height: 275px;
+    width: 735px;
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+    display: flex;
+}
+.lower-box{
+    height: 274px;
+    width: 735px;
+    /* background-color: cadetblue; */
+    /* border: 1px solid black; */
+    display: flex;
+}
+.upper1{
+    height: 265px;
+    width: 355px;
+    background-color:white;
+    margin-right: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.upper2{
+    height: 265px;
+    width: 355px;
+    background-color: white;
+    border-radius: 10px;
+}
+.lower1{
+    height: 265px;
+    width: 355px;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 7px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.lower2{
+    height: 265px;
+    width: 355px;
+    background-color: white;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+.view{
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 100px 0 0 690px;
+}
+.blue-mark {
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px;
+    background: rgba(0, 162, 255, 0.5);
+    border-radius: 10px;
+    clip-path: polygon(5% 10%, 95% 0%, 100% 85%, 10% 100%);
+  }
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #01ACFD;
+   padding-top: 105px;
+   
+}
+.footer1{
+    height: 200px;
+    width: 900px;
+    /* background-color: aquamarine; */
+    margin-left: 280px;
+    display: flex;
+}
+.bag{
+    height: 200px;
+    width: 350px;
+    /* background-color: red; */
+    
+}
+.footer2{
+    height: 200px;
+    width: 200px;
+    /* background-color: yellow; */
+    margin-left: 50px;
+}
+.footer3{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+    margin-left: 100px;
+}
+.button,.enroll,.icon-1,.icon-2,.view:hover{
+    cursor: pointer;
+}
+
